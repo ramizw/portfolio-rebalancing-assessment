@@ -7,7 +7,7 @@ Feature: Portfolio Rebalancing
   Background:
     Given the total portfolio assets are 100000
 
-  Scenario: Buy IBM shares when current allocation is below target
+  Scenario: Buy IBM shares when current allocation is below the target
     Given the security is "IBM"
     And the target allocation is 20 percent
     And the current allocation is 10 percent
@@ -17,7 +17,7 @@ Feature: Portfolio Rebalancing
     And the dollar adjustment should be 10000
     And the number of shares should be 66.6667
 
-  Scenario: Hold MSFT shares when current allocation matches target
+  Scenario: Hold MSFT shares when current allocation matches the target
     Given the security is "MSFT"
     And the target allocation is 20 percent
     And the current allocation is 20 percent
@@ -27,7 +27,7 @@ Feature: Portfolio Rebalancing
     And the dollar adjustment should be 0
     And the number of shares should be 0.0000
 
-  Scenario: Sell ORCL shares when current allocation is above target
+  Scenario: Sell ORCL shares when current allocation is above the target
     Given the security is "ORCL"
     And the target allocation is 20 percent
     And the current allocation is 30 percent
