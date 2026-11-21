@@ -1,3 +1,5 @@
+![Java CI with Maven](https://github.com/ramizw/portfolio-rebalancing-assessment/actions/workflows/maven.yml/badge.svg)
+
 # Portfolio Rebalancing – QA Automation Assessment
 
 ## 1. Overview
