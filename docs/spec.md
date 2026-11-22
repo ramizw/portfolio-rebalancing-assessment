@@ -48,7 +48,7 @@ The application must identify the difference between the current allocation perc
 
 For this assessment, the variance convention is:
 
-`Target Variance = Current % - Target %`
+`Difference between Current % & Target %`
 
 ### FR-02: Identify Required Action
 
