@@ -146,7 +146,7 @@ All five securities must return the expected results.
 
 | Execution Type | Status |
 |---|---|
-| Manual test cases | Documented; manual execution not performed |
+| Manual test cases | Documented |
 | Automated BDD tests | PASSED |
 | Total automated scenarios | 6 |
 | Failures | 0 |
